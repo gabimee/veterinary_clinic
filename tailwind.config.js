@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bg-image': "url('/images/bg.jpg')"
+      },
+      fontFamily: {
+        serif: ["Roboto", 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }
